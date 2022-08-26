@@ -1,26 +1,27 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <v-app> <!--component is the root of your application and a direct replacement for the default Vue entrypoint-->
+    <SiteHeader/>
+    <v-main> <!--Здесь располагается изменяемый контент-->
+      
+    </v-main>
+    <SiteFooter/>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SiteFooter from './components/ConstElements/SiteFooter.vue';
+import SiteHeader from './components/ConstElements/SiteHeader.vue';
 
 export default {
   name: 'App',
+
   components: {
-    HelloWorld
-  }
+    SiteFooter,
+    SiteHeader
+},
+
+  data: () => ({
+    //
+  }),
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

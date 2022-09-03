@@ -15,10 +15,6 @@
                 <v-icon left>mdi-login-variant</v-icon>
                 <span class="text-decoration-underline">Войти</span>
             </v-btn>
-            <v-btn flat>
-                <v-icon left>mdi-account-plus-outline</v-icon>
-                <span class="text-decoration-underline">Зарегистрироваться</span>
-            </v-btn>
         </v-toolbar>
     </nav>
 </template>
@@ -28,7 +24,7 @@
         name: 'SiteHeader',
         data: () => ({
             tab: null,
-            topics: ['Главная', 'Блог'], //может тут создавать картежи по типу {title, path}????
+            topics: ['Главная', 'Блог', 'Модели'], //может тут создавать картежи по типу {title, path}????
         })
     }
 </script>

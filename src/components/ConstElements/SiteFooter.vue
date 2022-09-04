@@ -3,7 +3,7 @@
             <span class="text-decoration-underline font-weight-medium">Спасибо,</span>
             <span class="font-weight-thin">что присоединились к нам!</span>
             <v-spacer></v-spacer>
-            <v-btn v-for="icon in icons" :key="icon" class="mx-3" icon flat>
+            <v-btn v-for="icon in icons" :key="icon" class="ml-5" icon flat>
                 <v-icon>{{icon}}</v-icon>
             </v-btn>
     </v-footer>

@@ -2,8 +2,10 @@
     <nav>
         <v-toolbar flat app class="px-4 py-2">
             <v-toolbar-title class="ma-0">
-                <span class="text-uppercase text-decoration-underline font-weight-medium">Model</span>
-                <span class="font-weight-thin">Storage</span>
+                <span class="text-uppercase font-weight-medium">M</span>
+                <span class="text-uppercase font-weight-thin">odel</span>  
+                <span class="text-uppercase font-weight-medium">S</span>
+                <span class="text-uppercase font-weight-thin">torage</span>  
             </v-toolbar-title>
             <v-spacer></v-spacer>
             <v-toolbar-items class="align-center">

@@ -1,4 +1,4 @@
-# dani-vue
+# doneer
 
 ## Project setup
 ```

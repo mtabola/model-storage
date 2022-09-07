@@ -1,5 +1,5 @@
 <template>
-    <v-footer app flat>             <!--Чуть позже копирайт добавь. Нужно узнать как работает контейнер для того чтобы поместить нижний кусок кода в одну строку-->
+    <v-footer app padless absolute class="grey lighten-3 px-3 py-1">             <!--Чуть позже копирайт добавь. Нужно узнать как работает контейнер для того чтобы поместить нижний кусок кода в одну строку-->
             <span class="text-decoration-underline font-weight-medium">Спасибо,</span>
             <span class="font-weight-thin">что присоединились к нам!</span>
             <v-spacer></v-spacer>

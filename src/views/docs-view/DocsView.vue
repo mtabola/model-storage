@@ -1,13 +1,13 @@
 <template>
-    <div class="model-page">
-      <span>modelpage</span>
+    <div class="docs-page">
+      <span>documentation</span>
     </div>
   </template>
   
   <script>
   
   export default {
-    name: 'ModelView'
+    name: 'DocsView'
   }
   </script>
   

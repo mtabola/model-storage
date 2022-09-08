@@ -18,7 +18,7 @@
 					</div>
 				</v-col>
 				<v-col cols="7" class="pa-0">
-					<v-img src="../../assets/blog-asstes/man-truck.jpeg"></v-img>
+					<v-img src="../../assets/home-asstes/man-truck.jpeg"></v-img>
 				</v-col>
 			</v-row>
 
@@ -26,7 +26,7 @@
 				<v-col
 				cols="5"
 				class="pa-0">
-					<v-img src="../../assets/blog-asstes/stands.png"></v-img>
+					<v-img src="../../assets/home-asstes/stands.png"></v-img>
 				</v-col>
 
 				<v-col 
@@ -58,7 +58,7 @@
 				<v-col
 				cols="2"
 				class="pa-0">
-					<v-img src="../../assets/blog-asstes/man-model.png"></v-img>
+					<v-img src="../../assets/home-asstes/man-model.png"></v-img>
 				</v-col>
 
 				<v-col
@@ -75,7 +75,7 @@
 			</v-row>
 			
 		</v-container>
-		<v-container fluid class="">
+		<v-container fluid>
 			<v-row>
 				<v-col cols="3" class="white d-flex justify-center align-center">
 					<v-hover v-slot="{hover}" open-delay="100">
@@ -83,7 +83,7 @@
 							<v-btn 
 							x-large
 							tile
-							:elevation="hover ? 10 : 0" 
+							:elevation="hover ? 5 : 0" 
 							:class="{'on-hover': hover}" 
 							class="grey lighten-2 grey--text text--darken-3 text-h6 pa-5">
 								<v-icon class="mr-4">mdi-account-plus-outline</v-icon>	

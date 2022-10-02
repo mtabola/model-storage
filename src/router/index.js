@@ -3,12 +3,13 @@ import VueRouter from 'vue-router'
 
 import HomeView from '../views/home-view/HomeView.vue'
 import BlogView from '../views/blog-view/BlogView.vue'
-import ModelView from '../views/model-view/ModelView.vue'
-import BlueprintView from '../views/blueprint-view/BlueprintView.vue'
-import DocsView from '../views/docs-view/DocsView.vue'
-import CourseworkView from '../views/coursework-view/CourseworkView.vue'
+//import ModelView from '../views/model-view/ModelView.vue'
+//import BlueprintView from '../views/blueprint-view/BlueprintView.vue'
+//import DocsView from '../views/docs-view/DocsView.vue'
+//import CourseworkView from '../views/coursework-view/CourseworkView.vue'
 import AuthView from '../views/auth-view/AuthView.vue'
 import RegView from '../views/auth-view/RegView.vue'
+import AtWorkView from '../views/at-work-view/AtWorkView.vue'
 
 Vue.use(VueRouter)
 
@@ -27,22 +28,22 @@ const routes = [
 	{
 		path: '/models',
 		name: 'model-page',
-		component: ModelView
+		component: AtWorkView
 	},
 	{
 		path: '/blueprints',
 		name: 'blueprint-page',
-		component: BlueprintView
+		component: AtWorkView
 	},
 	{
 		path: '/documentation',
 		name: 'documentation-page',
-		component: DocsView
+		component: AtWorkView
 	},
 	{
 		path: '/courseworks',
 		name: 'coursework-page',
-		component: CourseworkView
+		component: AtWorkView
 	},
 	{
 		path: '/auth',

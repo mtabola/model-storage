@@ -1,10 +1,10 @@
 <template>
     <v-card>
-        <v-img :src="article.img">
+        <v-img :src="article.previewImage">
         </v-img>
         <v-card-title class="text-h5">{{article.title}}</v-card-title>
         <v-divider></v-divider>
-        <v-card-subtitle>Опубликовано: {{getPublicationDate}}</v-card-subtitle>
+        <v-card-subtitle>Опубликовано: {{getPublicationDate()}}</v-card-subtitle>
         <v-card-text>
             {{article.description}}
         </v-card-text>
@@ -27,8 +27,8 @@
         name: 'BlogCard',
         props: ["article"],
         methods: {
-            getPublicationDate() {
-                return (new Date(this.dateOfPublication)).toLocaleDateString()
+            getPublicationDate: function() {
+                return new Date(this.dateOfPublication).toLocaleDateString({day: 'numeric', month: 'short', year: 'numeric'})
 
             }
         }
